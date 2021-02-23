@@ -1,0 +1,10 @@
+{
+  "extends": "eslint-config-egg/typescript",
+  "rules": {
+    "@typescript-eslint/ban-ts-ignore": 1,
+    "@typescript-eslint/no-var-requires": 0
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
